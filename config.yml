@@ -1,0 +1,51 @@
+baseURL: 'https://alexiayoga.github.io/'
+title: 'alexiayoga'
+theme: 'PaperMod'
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+# googleAnalytics: UA-123-45
+
+languages:
+    en:
+        params:
+          languageAltTitle: English
+        languageName: ":uk:"
+        weight: 1
+        menu:
+            main:
+                - name: Archive
+                  url: archives
+                  weight: 5
+
+    it:
+        params:
+          languageAltTitle: Italiano
+        languageName: ":it:"
+        weight: 2
+        menu:
+            main:
+                - name: Archive
+                  url: archives/
+                  weight: 5
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    author: Alexia Granato
+
+    defaultTheme: auto
+    ShowShareButtons: true
+    ShowReadingTime: true
+    # disableSpecial1stPost: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: true
+    ShowToc: true
+
+ 
